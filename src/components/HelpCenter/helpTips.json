@@ -1,0 +1,74 @@
+{
+  "contents": [
+    {
+      "title": "直播前需要先將商品建檔嗎？",
+      "content": "需要。在直播前，您必須先在後台將商品建檔，在直播主控台設定時才能提取商品資料並設定關鍵字。",
+      "sortKey": 0,
+      "callToActionLink": {
+        "isDisplay": false,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    },
+    {
+      "title": "一件商品在不同場直播可以設定不同關鍵字嗎？",
+      "content": "可以，不同場直播的關鍵字不會互相影響。例如：商品 A 可以在第一場直播關鍵字設為 A01，第二場設為A02。",
+      "sortKey": 1,
+      "callToActionLink": {
+        "isDisplay": false,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    },
+    {
+      "title": "使用直播主控台需要再回到後台啟用活動嗎？",
+      "content": "不需要。您可以直接在主控台上啟用及停用活動，系統也會在連接直播時提醒您啟用活動。",
+      "sortKey": 2,
+      "callToActionLink": {
+        "isDisplay": false,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    },
+    {
+      "title": "可以在直播主控台將留言置頂嗎？",
+      "content": "很抱歉，目前沒有這項功能，因 Meta 尚未開放留言置頂的 API 。您可以到 Facebook 或 Instagram 的直播畫面將留言置頂。",
+      "sortKey": 3,
+      "callToActionLink": {
+        "isDisplay": false,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    },
+    {
+      "title": "開播後如何再次新增商品？",
+      "content": "直播主可能拿先前的熱銷單品做搭配並銷售，但該商品並不在原定的名單中，您可以照以下步驟設定。1. 停用活動，避免系統在商品還沒設定完畢的情況下分析留言。2. 新增商品。3. 設定商品關鍵字。4. 通知直播主關鍵字。5. 啟用活動。6. 曝光商品。",
+      "sortKey": 4,
+      "callToActionLink": {
+        "isDisplay": true,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    },
+    {
+      "title": "如何在直播主控台上結束直播？結束直播後要做什麼？",
+      "content": "Facebook 粉絲專頁：您可以在直播主控台上點擊左上角「結束直播」，系統將同步關閉 Facebook 上的直播。Instagram：請直接在您開啟 Instagram 直播的裝置上結束直播。因 Instagram 串接限制，目前無法直接在直播主控台上關閉直播。結束直播後您就可以放心關閉直播主控台，但您可能會查看留言總覽，確認留言者的喊單商品是否成功加入購物車，查看商品統計以計算追貨數量，並在您訂下的付款截止時間前發送付款提醒，請消費者完成結帳。",
+      "sortKey": 5,
+      "callToActionLink": {
+        "isDisplay": true,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    },
+    {
+      "title": "消費者需要在直播前先在官網綁定 Facebook 或 Instagram 帳號嗎？",
+      "content": "直播主可能拿先前的熱銷單品做搭配並銷售，但該商品並不在原定的名單中，您可以照以下步驟設定。1. 停用活動，避免系統在商品還沒設定完畢的情況下分析留言。2. 新增商品。3. 設定商品關鍵字。4. 通知直播主關鍵字。5. 啟用活動。6. 曝光商品。",
+      "sortKey": 6,
+      "callToActionLink": {
+        "isDisplay": true,
+        "href": "",
+        "text": "前往教學手冊"
+      }
+    }
+  ]
+}

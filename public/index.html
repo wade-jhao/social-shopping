@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="社群直播+1的賣家有福了，串接Facebook粉絲專頁/社團直播或Instagram直播的+1留言，自動匯入官網購物車做結帳，矽羽直播主控台是您Facebook,Instagram社群購物+1的最佳助手。"
+    />
+    <meta name="robots" content="index" />
+    <meta name="copyright" content="sysfeather" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com/ https://connect.facebook.net/; 
+      script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com/ https://connect.facebook.net/ "
+    />
+    <meta property="og:title" content="矽羽直播主控台" />
+    <meta
+      property="og:description"
+      content="社群直播+1的賣家有福了，串接Facebook粉絲專頁/社團直播或Instagram直播的+1留言，自動匯入官網購物車做結帳，矽羽直播主控台是您Facebook,Instagram社群購物+1的最佳助手。"
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/new-sysfeather.png" />
+    <!-- <meta property="og:url" content="https://luckypicker.quishop.live" /> -->
+    <!-- <link rel="canonical" href="https://luckypicker.quishop.live" /> -->
+    <link rel="icon" href="%PUBLIC_URL%/new-sysfeather.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/new-sysfeather.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>矽羽直播主控台是您Facebook,Instagram社群購物+1的最佳助手</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GOOGLE_TAG_ID%"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "%REACT_APP_GOOGLE_TAG_ID%");
+    </script>
+  </head>
+
+  <body>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "%REACT_APP_FB_APP_ID%",
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: "%REACT_APP_FB_SDK_VERSION%",
+          status: true,
+          cookie: true,
+          oauth: true,
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+    <noscript
+      >社群直播+1的賣家有福了，串接Facebook粉絲專頁/社團直播或Instagram直播的+1留言，自動匯入官網購物車做結帳，矽羽直播主控台是您Facebook,Instagram社群購物+1的最佳助手。</noscript
+    >
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
