@@ -28,7 +28,7 @@
     "driver.js": "^1.1.0",
     "js-base64": "^3.7.5",
     "js-cookie": "^3.0.5",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.44.3",
